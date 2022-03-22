@@ -1,1 +1,1 @@
-put your webhook between the "" in line 5
+open main.py and enter name and webhook, then open the new file and ip shod pop up in yr server
