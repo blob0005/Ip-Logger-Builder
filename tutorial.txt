@@ -1,2 +1,0 @@
-1. open install.bat then start.bat
-2. enter name and webhook, then open the new file and ip shod pop up in yr server
