@@ -11,6 +11,8 @@ except Exception:
             break
         else:
             print("Enter A Valid Choice")
+    if e == "n":
+        exit()
     if e == "y":
         try:
             os.system("pip install requests")
