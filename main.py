@@ -1,7 +1,32 @@
-import requests
-
-
-name = input("Enter File Name: ")
+try:
+    import os
+except Exception:
+    pass
+try:
+    import requests
+except Exception:
+    while True:
+        e = input("Requests Moduel Missing, Wanna Try Auto Fix It (y/n): ")
+        if e == "y" or e == "n":
+            break
+        else:
+            print("Enter A Valid Choice")
+    if e == "y":
+        try:
+            os.system("pip install requests")
+            print("It Shod Be Fixed Now, Press Enter To Start Main Program")
+            input("")
+        except Exception:
+            print("Error Fixing, Press Enter To Close Program")
+            input("")
+            exit()
+while True:
+    name = input("Enter File Name: ")
+    temp = len(name)
+    if int(temp) > 135:
+        print("To Long Name")
+    if int(temp) < 135:
+        break
 while True:
     try:
         webhook = input("Enter Webhook: ")
