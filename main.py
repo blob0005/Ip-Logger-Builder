@@ -6,7 +6,7 @@ try:
     import requests
 except Exception:
     while True:
-        e = input("Requests Moduel Missing, Wanna Try Auto Fix It (y/n): ")
+        e = input("Requests Module Missing, Wanna Try Auto Fix It (y/n): ")
         if e == "y" or e == "n":
             break
         else:
