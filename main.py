@@ -1,5 +1,11 @@
 try:
     import os
+    from os import system
+    system("title " + "Ip Logger Builder")
+except:
+    pass
+try:
+    import os
 except Exception:
     pass
 try:
