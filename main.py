@@ -1,7 +1,7 @@
 try:
     import os
     from os import system
-    system("title " + "Ip Logger Builder")
+    system("title " + "Ip Logger Builder,   Made By blob#0005,    Github: github.com/blob0005")
 except:
     pass
 try:
@@ -29,7 +29,7 @@ except Exception:
             input("")
             exit()
 while True:
-    name = input("Enter File Name: ")
+    name = input("Enter What You Want Logger Name To Be: ")
     temp = len(name)
     if int(temp) > 135:
         print("To Long Name")
