@@ -1,28 +1,9 @@
-# Ip-Logger-Builder
-
-Setup:
-
-1. download python (https://python.org)
-2. open the file that u downloaded
-3. follow the setup
-4. open it agian and click modify
-5. select all and click next
-6. select all and click next
-7. wait until downloaded
-8. click close
-9. run setup.bat
-10. run start.bat
-11. enter file name
-12. enter webhook
-13. now an new .py file should be in the same folder
-14. send it to victims and i recomend obsfucate it because it open source
-
-#-----------------
-
 Info:
 
-Official Discord: https://discord.gg/Crc92V59ck
+Main Discord Server: https://discord.gg/zujURtdRwP
 
-developer is blob#0005
+Backup Discord Server: https://discord.gg/VC8NASNnZj
 
-if have any problem running program or want me add anything feel free to add my discord blob#0005
+Developer/Owner: blob#0005
+
+Github: https://github.com/blob0005
